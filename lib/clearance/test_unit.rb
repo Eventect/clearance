@@ -3,6 +3,6 @@ require "clearance/testing/controller_helpers"
 
 ActionController::TestCase.extend Clearance::Testing::Matchers
 
-class ActionController::TestCase
+class ActionDispatch::IntegrationTest
   include Clearance::Testing::ControllerHelpers
 end
